@@ -10,10 +10,10 @@ export const config = {
     APP_SECRET: "8e4873860200db2e2746b5d3180272b1",
 
     // 模板消息id
-    TEMPLATE_ID: "openUr1：https://s.weibo.com/top/summary?cate=realtimehot",
+    TEMPLATE_ID: "ORqQLa1cQc4WR_MjVMIMwV8V72yvOkuvGW3MkU3xer4",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "oLhsU5yKkFmIry4o6Yq56EtUlkIo",
+    CALLBACK_TEMPLATE_ID: "ORqQLa1cQc4WR_MjVMIMwV8V72yvOkuvGW3MkU3xer4",
 
 
     /**
