@@ -71,7 +71,7 @@ export const config = {
       * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }} 
       * */
     CUSTOMIZED_DATE_LIST: [
-      // 在一起的日子
+      // 在一起的日子啊
       {"keyword": "love_day", date: "2020-01-19"},
       // 结婚纪念日
       //{"keyword": "marry_day", date: "2020-01-04"},
