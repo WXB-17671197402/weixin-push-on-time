@@ -4,34 +4,32 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "wx544b2d50b18cdc23",
+    APP_ID: "wx9bd1a983cebff82f",
 
     // 公众号APP_SECRET
-    APP_SECRET: "158d1d53029246aef955602f8355809e",
+    APP_SECRET: "8e4873860200db2e2746b5d3180272b1",
 
     // 模板消息id
-    TEMPLATE_ID: "t10BPcP8opkM7rJ4hxDOYL97Lsx_O_dO9-ao4mdiv20",
+    TEMPLATE_ID: "openUr1：https://s.weibo.com/top/summary?cate=realtimehot",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "t10BPcP8opkM7rJ4hxDOYL97Lsx_O_dO9-ao4mdiv20",
+    CALLBACK_TEMPLATE_ID: "oLhsU5yKkFmIry4o6Yq56EtUlkIo",
 
 
     /**
      * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
      * [
-     *   {name: '小瑞子', id: "osV6d51DNA077KUDSmBvtYOUTqa4"}, 
-     *   {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"},
+     *   {name: '自己', id: "oLhsU5yKkFmIry4o6Yq56EtUlkIo"}, 
+     *   {name: '小孩儿', id: "oLhsU58xk1-iV45M8f2ixryiEMdM"},
      * ]
      */
     USERS: [
-      //{name: '小瑞子', id: "osV6d51DNA077KUDSmBvtYOUTqa4"}, 
-      {name: '小仙女', id: "osV6d56nzj2jlGvk2Q7RS_kmBmPc"}, 
-      //{name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
-      //{name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
+      //{name: '小孩儿', id: "oLhsU58xk1-iV45M8f2ixryiEMdM"}, 
+     
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "osV6d51DNA077KUDSmBvtYOUTqa4"}, 
+      {name: '自己',id: "oLhsU5yKkFmIry4o6Yq56EtUlkIo"}, 
     ],
      
     /**
@@ -41,9 +39,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "山东",
+    PROVINCE: "湖北",
     // 所在城市
-    CITY: "聊城",
+    CITY: "十堰",
 
     /** 重要节日相关 */
 
@@ -54,10 +52,8 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "小仙友", "year": "2000", "date": "11-26"},
-      {"type": "生日", "name": "小瑞子", "year": "2001", "date": "10-10"},
-      {"type": "节日", "name": "纪念日", "year": "2020", "date": "01-19"},
-      {"type": "节日", "name": "宝贝考研", "year": "2023", "date": "12-25"},
+      {"type": "生日", "name": "傻小孩儿", "year": "2002", "date": "11-14"},
+     
     ],
 
     /**
@@ -66,7 +62,7 @@ export const config = {
      * 如果为0, 则默认展示全部
      * 默认是4
      */
-    FESTIVALS_LIMIT: 0,
+    FESTIVALS_LIMIT: 1,
 
     /** 日期相关 */
 
@@ -118,9 +114,7 @@ export const config = {
 // 天气：{{weather.DATA}}  
 // 最低气温: {{min_temperature.DATA}}  
 // 最高气温: {{max_temperature.DATA}}  
-// 今天是我们恋爱的第{{love_day.DATA}}天
-// 今天是我们结婚的第{{marry_day.DATA}}天
-// {{birthday_message.DATA}}
+// 距离小孩儿生日{{birthday_message.DATA}}天
 
 // {{note_en.DATA}}  
 // {{note_ch.DATA}}
